@@ -1,0 +1,10 @@
+class CarringoDeCompras
+  attr_reader :items
+  def initialize
+    @items = []
+  end
+
+  def <<(item)
+    itens << item
+  end
+end
